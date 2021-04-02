@@ -1,17 +1,15 @@
-package com.example.ltv2021.screens.SignInScreen;
+package com.example.ltv2021.screens.SignUpScreen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
 
 import com.example.ltv2021.R;
 import com.example.ltv2021.databinding.ActivitySignInScreenBinding;
 
-public class SignInScreen extends AppCompatActivity {
+public class SingUpScreen extends AppCompatActivity {
 
     ActivitySignInScreenBinding binding;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,11 +17,5 @@ public class SignInScreen extends AppCompatActivity {
         setContentView(binding.getRoot());
     }
 
-    public void SignIn(View view) {
-        if(
-                !binding.editTextTextEmailAddress.getText().toString().equals("")&&!binding.editTextTextPassword.getText().toString().equals("")
-        ){
 
-        }
-    }
 }

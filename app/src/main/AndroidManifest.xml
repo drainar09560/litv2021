@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".screens.SignInScreen.SignInScreen"></activity>
+        <activity android:name=".screens.SignUpScreen.SingUpScreen"></activity>
+        <activity android:name=".screens.SignInScreen.SignInScreen" />
         <activity android:name=".screens.LaunchScreen.LaunchScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
